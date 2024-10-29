@@ -1,0 +1,24 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  background: #1996af;
+}
+
+.header {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  background: #eee;
+}
+
+.main {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background: #bbb;
+}
